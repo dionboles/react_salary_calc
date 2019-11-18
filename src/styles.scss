@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Color Theme Swatches in Hex */
+$blue-hex: #1B378C;
+$white-hex:#F2F2F2;
+$lightBlue-hex:#3B5CBF;
+
+body{
+    background-color: lighten($color: $white-hex, $amount: 5);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.title{
+    background: $blue-hex;
+    color: $white-hex;
+    padding: 1.5rem;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.5rem;
+    font-size: 2.5rem;
+}
+.subtitle{
+    background: $lightBlue-hex;
+    color: $white-hex;
+    padding: 1.5rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+.inputSalary{
+    padding: 10px;
+    max-width: 100%;
+    width: 50%;
+    margin: 5px;
+    font-size: 1.1rem;
+    border: 1.2px solid #ccc;
+    border-radius: 5px;
+}
