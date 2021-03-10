@@ -37,6 +37,7 @@ class Calc extends React.Component {
             type='text'
             onChange={this.data.bind(this)}></input>
         </div>
+        <footer>Made by Dion Boles</footer>
       </main>
     );
   }
