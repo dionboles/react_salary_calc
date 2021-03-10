@@ -1,22 +1,12 @@
-import React from "react";
-import ReactDom from"react-dom";
-import Calc from "./calc";
-// class App extends React.Component{
+import React, { Fragment } from 'react';
+import ReactDom from 'react-dom';
+import Calc from './calc';
 
-//     render(){
-//         return(
-//             <div>
-//                 <h1>Enter Salary to Hourly</h1>
-//             </div>
-//         )
-//     }
-// }
-
-const App = ()=>{
-    return(
-        <div>
-            <Calc/>
-        </div>
-    )
-}
-ReactDom.render(<App/>,document.getElementById("app"));
+const App = () => {
+  return (
+    <Fragment>
+      <Calc />
+    </Fragment>
+  );
+};
+ReactDom.render(<App />, document.getElementById('app'));

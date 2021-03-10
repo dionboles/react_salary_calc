@@ -1,43 +1,56 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 /* Color Theme Swatches in Hex */
-$blue-hex: #1B378C;
-$white-hex:#F2F2F2;
-$lightBlue-hex:#3B5CBF;
+$blue-hex: #1b378c;
+$white-hex: #f2f2f2;
+$lightBlue-hex: #3b5cbf;
 
-body{
-    background-color: lighten($color: $white-hex, $amount: 5);
-    font-family: 'Roboto', sans-serif;
+body {
+  background-color: lighten($color: $white-hex, $amount: 5);
+  font-family: 'Roboto', sans-serif;
+  font-size: 120%;
 }
 
-
-.title{
-    background: $blue-hex;
-    color: $white-hex;
-    padding: 1.5rem;
-    text-align: center;
-    font-weight: 300;
-    line-height: 1.5rem;
-    font-size: 2.5rem;
-}
-.subtitle{
-    background: $lightBlue-hex;
-    color: $white-hex;
-    padding: 1.5rem;
-    text-align: center;
-    font-weight: 300;
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.inputSalary{
-    padding: 10px;
-    max-width: 100%;
-    width: 50%;
-    margin: 5px;
-    font-size: 1.1rem;
-    border: 1.2px solid #ccc;
-    border-radius: 5px;
+.title {
+  background: $blue-hex;
+  color: $white-hex;
+  padding: 1.5rem;
+  text-align: center;
+  font-weight: 300;
+  line-height: 1.5rem;
+  font-size: 2.5rem;
+}
+.subtitle {
+  background: $lightBlue-hex;
+  color: $white-hex;
+  padding: 1.5rem;
+  text-align: center;
+  font-weight: 300;
+}
+
+.inputSalary {
+  padding: 10px;
+  max-width: 100%;
+  width: 50%;
+  margin: 5px;
+  font-size: 1.1rem;
+  border: 1.2px solid #ccc;
+  border-radius: 5px;
+}
+
+.inputDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
