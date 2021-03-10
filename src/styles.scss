@@ -13,12 +13,16 @@ body {
   background-color: lighten($color: $white-hex, $amount: 5);
   font-family: 'Roboto', sans-serif;
   font-size: 120%;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 .main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .title {
@@ -50,7 +54,18 @@ body {
 
 .inputDiv {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 14rem;
+  padding-top: 14rem;
+}
+
+footer {
+  margin-top: auto;
+  color: $white-hex;
+  background-color: $blue-hex;
+  padding: 1.5rem;
+  text-align: center;
+  font-weight: 300;
 }

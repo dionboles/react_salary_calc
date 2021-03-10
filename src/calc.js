@@ -31,7 +31,7 @@ class Calc extends React.Component {
         <h2 className='subtitle'>Your Hourly Rate : {this.state.salary}</h2>
         <h2 className='subtitle'>Your Weekly Rate : {this.state.week}</h2>
         <div className='inputDiv'>
-          <label>Enter Yearly Salary :</label>
+          <label>Enter Yearly Salary</label>
           <input
             className='inputSalary'
             type='text'
